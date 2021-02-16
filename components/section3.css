@@ -1,0 +1,49 @@
+.section3{
+    width:100%;
+    background: #33363b;
+   
+
+}
+.container_section3{
+    height:494px;
+    margin: 0 221px;
+    padding: 85px 17px;
+    display: flex;
+    flex:1;
+    justify-content:center;
+  
+}
+.left_side_content{
+    width:379px;
+    height:325px;
+    background: #33363b;
+    margin :0 0 0 95px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    padding: 0 17px;
+    color:#f6f7f8;
+}
+.left_side_content .get_started_cont{
+    width: 349px;
+    height: 168px;
+    text-align: left;
+    margin: 0 0 21px 0;
+    line-height: 1.6;
+}
+.left_side_content h2{
+    margin: 0 0 17px;
+}
+.left_side_block{
+    width: 345px;
+    height: 58px;
+    background: #292d3e;
+    padding: 15PX;
+    border-radius: 5px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.command_img{
+    width:441px;
+    height:318px;
+    margin: 0 0  0 95px;
+    padding: 0 17px;
+}

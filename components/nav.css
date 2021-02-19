@@ -13,11 +13,12 @@ margin:0;
   }
 
 nav{
+    width:100%;
     height: 64px;
     padding: 8.5px 17px;
     background-color:#312f2f;
     position: sticky;
-
+    top:0;
 }
 .innernav{
     height: 46px;
@@ -45,6 +46,11 @@ nav{
     height: 2rem;
     margin-right: 1rem;
   }
+  .button1{
+      visibility: hidden;
+      padding: 0;
+      margin: 0;
+  }
 
 #right_side{
     display: inline;
@@ -64,6 +70,9 @@ nav{
 
      
 }
+.side_navbar{
+    visibility: hidden;
+ }
 
 
 /*---------------------------------------------------------------------*/
@@ -125,4 +134,69 @@ input:checked[type="checkbox"]:before{
 }
 .search{
     margin: 0px;
+}
+@media screen and (max-width:796px){
+
+    .innernav{
+        height: 46px;
+        padding: 10px;
+        background-color:#312f2f;
+    }
+    .nav_a{
+        width:405px;
+        height: 32px;
+    }
+    #right_side{
+        visibility: hidden;
+    }
+    .button1{
+        visibility: visible;
+        border: 0;
+       background:#312f2f;
+       color:#f6f7f8;
+       height: 36px;
+        width:34px;
+        cursor: pointer;
+    }
+ .side_navbar{
+        height: 1334px;
+        width:95%;
+        visibility: visible;
+        background:#312f2f;
+        position: absolute;
+        top:0;
+        left: 0;
+        transition-duration: 5s;
+
+    }
+    .slider1{
+        margin:3px 5px;
+    }
+
+    .side_nav_a{
+        padding: 10px;
+        height:46px;
+        display: flex;
+        background: #3b3a3a;
+    }
+    .logo1{
+        width:36px;
+        height: 34px;
+        margin:  0 8.5px 0 0;
+    }
+    #create1{
+        margin:0  0;
+        padding: 5px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .menu_bar{
+            padding: 10px;
+            margin-left: 20px;
+            display: flex;
+    }
+    .menu_bar a{
+        font-size: 10px;
+    }
+   
 }

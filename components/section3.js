@@ -19,7 +19,7 @@ function Section3()
             <p>npx create-react-app my-app</p>
             </div>
         </div>
-        <div className="command img">
+        <div className="command_img1">
             <img  className="command_img" src={ios}></img>
 
         </div>

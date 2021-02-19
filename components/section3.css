@@ -47,3 +47,42 @@
     margin: 0 0  0 95px;
     padding: 0 17px;
 }
+@media screen and (max-width:796px){
+    .section3{
+        width:100%;
+        height:918px;
+        padding: 75px 15px;
+       
+    }
+    .container_section3{
+        display: block;
+        margin: 0;
+        padding: 0 ;
+        height:898px;
+    }
+    .left_side_content{
+        width: 100%;
+        height: 208px;
+        font-size: 15px;
+        margin:  0 ;
+        padding: 0;
+    }
+    .left_side_content .get_started_cont{
+        width: 100%;
+        height: 92px;
+        margin: 0 0 18.5px;
+    }
+    .left_side_block{
+        width:767px;
+    }
+    .command_img{
+            margin: 20px 0 0 0;
+            padding: 0;
+            width:100%;
+            height: 553px;
+    }
+    .command_img1{
+        width:100%;
+            height: 553px;
+    }
+}
